@@ -8,6 +8,8 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* HEADER */
+
 header{
     display: flex;
     justify-content: space-evenly;
@@ -15,6 +17,8 @@ header{
     background-color: #85A32C;
     height: 120px;
 }
+
+/* SIDEBAR */
 
 .container-2{
     display: flex;
@@ -67,6 +71,8 @@ aside .user-info button{
     padding: 0px 30px 0px 40px;
     font-size: 22px;
 }
+
+/* CONTEUDO */ 
 
 main{
     background-color: #F0D597;
