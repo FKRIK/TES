@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #85A32C;
+    height: 120px;
+}
+
+.container-2{
+    display: flex;
+    height: 100vw;
+}
+
+aside{
+    color: #fff;
+    background-color: #A38339;
+    width: 20%;
+}
+
+.user-info{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+aside .user-info img{
+    margin-top: 5px;
+}
+
+aside .user-info p{
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+aside .user-info button{
+    font-size: 16px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menus{
+    display: flex;
+    flex-direction: column;
+}
+
+.menus div{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+.menus div a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 30px 0px 40px;
+    font-size: 22px;
+}
+
+main{
+    background-color: #F0D597;
+    width: 80%;
+}
+
