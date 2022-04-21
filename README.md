@@ -1,7 +1,7 @@
 # TES
 ### Em desenvolvimento
 
-**GRUPO**
+**GRUPO**.
 Fernando Krik
 Pablo Martin
 Marcos Santos
