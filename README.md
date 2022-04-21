@@ -2,6 +2,6 @@
 ### Em desenvolvimento
 
 **GRUPO**\
-Fernando Krik
-Pablo Martin
-Marcos Santos
+Fernando Krik\
+Pablo Martin\
+Marcos Santos\
