@@ -53,7 +53,7 @@ header label {
 aside{
     color: #fff;
     background-color: #055075;
-    width: 200px;
+    min-width: 200px;
 }
 
 .menus{
@@ -81,3 +81,29 @@ aside{
 }
 
 /* CONTEUDO */
+
+main {
+    width: 100%;
+    background-color: #ffffffa6;
+}
+
+main section {
+    text-align: center;
+    padding-top: 80px;
+}
+
+main section h1 {
+    font-size: 2rem;
+}
+
+main table {
+    margin: auto;
+    margin-top: 80px;
+    border-collapse: collapse;
+}
+
+main table td, th {
+    border-bottom: 1px solid black;
+    padding: 15px 80px 15px 80px;
+    font-size: 1.2rem;
+}
