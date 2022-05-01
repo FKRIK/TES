@@ -107,3 +107,40 @@ main table td, th {
     padding: 15px 80px 15px 80px;
     font-size: 1.2rem;
 }
+
+main table #ativ-extra {
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #157db1;
+    color: #fff;
+    border-radius: 70px;
+}
+
+main .chat-container {
+    display: flex;
+    flex-direction: column;
+}
+
+main .chat-main-window {
+    border: 1px solid black;
+    height: 400px;
+    margin: 30px;
+}
+
+main .chat-msg-box {
+    align-content: center;
+}
+
+main textarea {
+    border: 1px solid black;
+}
+
+main .prof-agenda {
+    margin-top: 40px;
+}
+
+main form #date{
+    border: 1px solid black;
+    border-radius: 5px;
+}

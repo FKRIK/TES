@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/aluno.css">
-    <title>Agenda</title>
+    <title>Home Page</title>
 </head>
 <body>
     <header>
@@ -15,7 +15,7 @@
 		</div>
         <div>
 			<img src="../assets/icons/user_white_icon.png">
-			<label>Enzo</label>
+			<label>Professor</label>
         </div>
     </header>
     <div class="container-2">
@@ -49,39 +49,21 @@
         </aside>
         <main>
             <section>
-                <h1>Agenda de provas</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>DISCIPLINA</th>
-                            <th>DATA</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Matemática</td>
-                            <td>27/04/2022</td>
-                        </tr>
-                        <tr>
-                            <td>Física</td>
-                            <td>29/04/2022</td>
-                        </tr>
-                        <tr>
-                            <td>Português</td>
-                            <td>01/05/2022</td>
-                        </tr>
-                        <tr>
-                            <td>Geografgia</td>
-                            <td>02/05/2022</td>
-                        </tr>
-                        <tr>
-                            <td>História</td>
-                            <td>04/05/2022</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h1>Agendamento de atividades</h1>
+                <div class="prof-agenda">
+                    <form action="">
+                        <input type="checkbox"> Prova
+                        <input type="checkbox"> Aula
+                        <input type="checkbox"> Ativ. extra
+                        <br><br>
+                        <input type="date" name="" id="date">
+                        <br><br>
+                        <input type="button" class="btn_agendar">Agendar!
+                    </form>
+                </div>
             </section>
         </main>
-    </div> 
+    </div>
+    
 </body>
 </html>
