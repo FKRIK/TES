@@ -1,0 +1,49 @@
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#157db1;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:middle}
+
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:0px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#157db1;border-color:#9ABAD9;border-style:solid;border-width:2px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6ycq{background-color:#157db1;color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-30ni{background-color:#157db1;text-align:left;vertical-align:top}
+.tg .tg-unli{background-color:#ebf5ff;color:#333333;text-align:center;vertical-align:middle}
+
+.faltas {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.provas {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.notas {
+  width: 30%;
+  margin: 0 0 0 200px;
+  float: left;
+}
+
+.atividadesExtras {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main h2 {
+  margin-top: 20px;
+}
+main table {
+  margin-top: 10px;
+}

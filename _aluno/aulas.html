@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/aluno.css">
+    <link rel="stylesheet" href="../css/material.css">
+    <script type="text/javascript" src="../script/material.js"></script>
     <title>Aulas</title>
 </head>
 <body>
@@ -23,7 +25,7 @@
             <div class="menus">
                 <div>
                     <img src="../assets/icons/home_white_icon.png" alt="">
-                    <a href="index.html">Home</a>
+                    <a href="#">Home</a>
                 </div>
                 <div>
                     <img src="../assets/icons/book_white_icon.png" alt="">
@@ -31,11 +33,23 @@
                 </div>
                 <div>
                     <img src="../assets/icons/cap_white_icon.png" alt="">
-                    <a href="#">Disciplinas</a>
+                    <a href="atividadesExtras.html">Atividades Extras</a>
                 </div>
                 <div>
-                    <img src="../assets/icons/chart_white_icon.png" alt="">
-                    <a href="">Desempenho</a>
+                    <img src="../assets/icons/cap_white_icon.png" alt="">
+                    <a href="vidaAcademica.html">Vida acadêmica</a>
+                </div>
+                <div>
+                    <img src="../assets/icons/cap_white_icon.png" alt="">
+                    <a href="aulas.html">Disciplinas</a>
+                </div>
+                <div>
+                    <img src="../assets/icons/cap_white_icon.png" alt="">
+                    <a href="pagamento.html">Vida financeira</a>
+                </div>
+                <div>
+                    <img src="../assets/icons/cap_white_icon.png" alt="">
+                    <a href="notas.html">Notas</a>
                 </div>
                 <div>
                     <img src="../assets/icons/chat_white_icon_2.png" alt="">
@@ -100,28 +114,28 @@
                 </table>
             </section>
             <section>
-                <h1>Atividades extracurriculares</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Terça</th>
-                            <th>Quinta</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Judô</td>
-                            <td>Clube do livro</td>
-                        </tr>
-                        <tr>
-                            <td>Judô</td>
-                            <td>Clube do livro</td>
-                        </tr>
-                        <tr>
-                            <td id="ativ-extra" colspan="2">Matricular-se em mais atividades!</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h2>Material de estudo</h2>
+                
+                <button data-target="modalPortugues" data-toggle="modal">Português</button>
+                <button data-target="modalMatematica" data-toggle="modal">Matemática</button>
+
+                <div id="modalPortugues" class="modal">
+                    <div class="modal-window">
+                        <span class="close" data-dismiss="modal">&times;</span>
+                        <h3>Português</h3>
+                    <p>Gramática: Capítulos 7, 8 e 9</p>
+                    <p>Gêneros textuais: Interpretar tirinhas da Mafalda dos respectivos capítulos acima.</p>
+                    </div>
+                </div>
+
+                <div id="modalMatematica" class="modal">
+                    <div class="modal-window">
+                        <span class="close" data-dismiss="modal">&times;</span>
+                        <h2>Matemática</h2>
+                    <p>Geometria: Capítulo 6: O círculo.</p>
+                    <p>Exercícios do capítulo 6.</p>
+                    </div>
+                </div>
             </section>
         </main>
     </div>

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/aluno.css">
-    <title>Chat</title>
+    <link rel="stylesheet" href="../css/atividadesExtras.css">
+    <script type="text/javascript" src="../script/atividadesExtras.js"></script>
+    <title>Atividades extras</title>
 </head>
 <body>
     <header>
 		<div class="logo">
 			<img class="hamburg" src="../assets/icons/hamburg_white_icon.png">
-			<h1>Whiteboard</h1>
+			<h1>Logo</h1>
 		</div>
         <div>
 			<img src="../assets/icons/user_white_icon.png">
@@ -61,20 +63,39 @@
         </aside>
         <main>
             <section>
-                <h1>Chat para contato</h1>
-                <div class="chat-container">
-                    <div class="chat-main-window">
-                        <h4>Sua mensagem irá aparecer aqui!</h4>
-                    </div>
-                    <div class="chat-msg-box">
-                        <form action="">
-                            <textarea name="" id="" cols="30" rows="2" placeholder="Escreva sua mensagem aqui"></textarea>
-                            <input type="button" value="Enviar">
-                        </form>
-                    </div>
-                </div>
+                <h1>Atividades Extras</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DISCIPLINAS MATRICULADAS</th>
+                            <th>EXTRAS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul id="discMatriculadas"> 
+                                    <li>Matemática</li>
+                                    <li>Física</li>
+                                    <li>Português</li>
+                                    <li>Geografia</li>
+                                    <li>História</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <button onclick="adicionar()"><<<</button>
+                                <select class="selDiscExtras" id="selDiscExtras" multiple>
+                                    <option>Ensino religioso</option>
+                                    <option>Comunicação e Escrita</option>
+                                    <option>Libras</option>
+                                </select>
+                            </td>
+                        </tr>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
         </main>
-    </div>
+    </div> 
 </body>
 </html>

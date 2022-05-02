@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+}
+
+.liDiscExtra {
+    text-decoration: underline;
+    display: block;
+}
+
+.btn-extra {
+    color: red;
+    margin: 5px;
+    width: 20px;
+}
+
+.selDiscExtras {
+    width: 200px;
+}

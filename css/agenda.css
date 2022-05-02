@@ -1,0 +1,51 @@
+table {
+    
+    background: white;
+    color: black;
+    margin: 0 0 0 10px;
+    justify-content: center;
+}
+  
+th{
+    color: white; 
+    background: #055075;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+td {
+    
+    font-weight: bold;
+    text-align: center;
+}
+td#mesant,#fds{
+    font-weight: lighter;
+    
+}
+td#dia,#d23,#d25{
+    background-color: #055075;
+    color: white;
+}
+p{
+    background-color: lightgrey;
+    margin: -375px 0px 0px 10px;
+    display: table;
+    padding: 10px 10px 10px 10px;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 5px 0px 5px 200px;
+    margin: 10px 0px 10px 10px;
+    background-color: #157db1;
+}
+
+ul{
+    background-color: #055075;
+    color: white;
+    padding: 10px 10px 10px 30px;
+    margin: 10px 0px 0 10px;
+    
+}
+tr#diaSem{
+    background-color: black;
+}

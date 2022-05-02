@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/aluno.css">
-    <title>Chat</title>
+    <link rel="stylesheet" href="../css/pagamentos.css">
+    <script type="text/javascript" src="../script/pagamento.js"></script>
+    <title>Home Page</title>
 </head>
 <body>
     <header>
@@ -60,21 +62,19 @@
             </div>
         </aside>
         <main>
-            <section>
-                <h1>Chat para contato</h1>
-                <div class="chat-container">
-                    <div class="chat-main-window">
-                        <h4>Sua mensagem irá aparecer aqui!</h4>
-                    </div>
-                    <div class="chat-msg-box">
-                        <form action="">
-                            <textarea name="" id="" cols="30" rows="2" placeholder="Escreva sua mensagem aqui"></textarea>
-                            <input type="button" value="Enviar">
-                        </form>
-                    </div>
-                </div>
-            </section>
+            <h2>Meus pagamentos</h2>
+
+            <h3>Abril/2022</h3>
+            <div>
+                <p>Mensalidade - 03/2022</p>
+                <button id="vencido">Vencido</button> <button id="gerar" onclick="pagamento()">Gerar Boleto</button>
+            </div>
+            <h3>Maio/2022</h3>
+            <p>Mensalidade - 04/2022</p>
+            <button id="vencer" >À vencer</button> <button id="gerar" onclick="pagamento()">Gerar Boleto</button>
+            
         </main>
     </div>
+    
 </body>
 </html>

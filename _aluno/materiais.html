@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/aluno.css">
-    <title>Chat</title>
+    <script type="text/javascript" src="../script/materiais.js"></script>
+    <title>Materiais de estudo</title>
 </head>
 <body>
     <header>
@@ -60,21 +61,18 @@
             </div>
         </aside>
         <main>
-            <section>
-                <h1>Chat para contato</h1>
-                <div class="chat-container">
-                    <div class="chat-main-window">
-                        <h4>Sua mensagem irá aparecer aqui!</h4>
-                    </div>
-                    <div class="chat-msg-box">
-                        <form action="">
-                            <textarea name="" id="" cols="30" rows="2" placeholder="Escreva sua mensagem aqui"></textarea>
-                            <input type="button" value="Enviar">
-                        </form>
-                    </div>
-                </div>
-            </section>
+            <h2>Materiais de estudo</h2>
+
+            <h3>Arquivos</h3>
+            <label><input type="file" name="arquivos" id="arquivos"></label>
+            <button onclick="adicionar()">Adicionar</button>
+            <br>
+            <ul id="lista">Materiais
+                <li></li>
+            </ul>
+            
         </main>
     </div>
+    
 </body>
 </html>
